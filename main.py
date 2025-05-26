@@ -7,7 +7,7 @@ import numpy as np
 
 from Detection.Utils import ResizePadding
 from CameraLoader import CamLoader, CamLoader_Q
-from DetectorLoader import TinyYOLOv3_onecls
+from DetectorLoader import TinyYOLOv8_onecls
 
 from PoseEstimateLoader import SPPE_FastPose
 from fn import draw_single
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     # DETECTION MODEL.
     inp_dets = args.detection_input_size
-    detect_model = TinyYOLOv3_onecls(inp_dets, device=device)
+    detect_model = TinyYOLOv8_onecls(inp_dets, device=device)
     print(type(detect_model))  # thêm dòng này vào sau dòng `detected = detect_model.detect(...)`
 
     # POSE MODEL.

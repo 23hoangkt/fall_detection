@@ -47,7 +47,7 @@ def rtsp_reader(cam_source, frame_queue):
 def main_detection(frame_queue):
     import torch
     from Detection.Utils import ResizePadding
-    from DetectorLoader import TinyYOLOv3_onecls
+    from DetectorLoader import TinyYOLOv8_onecls
     from PoseEstimateLoader import SPPE_FastPose
     from Track.Tracker import Detection, Tracker
     from ActionsEstLoader import TSSTG
@@ -56,7 +56,7 @@ def main_detection(frame_queue):
     device = 'cuda'
     inp_dets = 384
     inp_pose = (224, 160)
-    detect_model = TinyYOLOv3_onecls(inp_dets, device=device)
+    detect_model = TinyYOLOv8_onecls(inp_dets, device=device)
     pose_model = SPPE_FastPose('resnet50', *inp_pose, device=device)
     tracker = Tracker(max_age=45, n_init=3)
     action_model = TSSTG()

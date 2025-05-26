@@ -120,8 +120,8 @@ from queue import Queue
 from threading import Thread
 from ultralytics import YOLO
 
-class TinyYOLOv3_onecls(object):
-    """Load trained YOLOv8 one class (person) detection model.
+class TinyYOLOv8_onecls(object):
+    """Load trained YOLOv8 one class (person) detection model.qq
     Args:
         input_size: (int) Size of input image. Default: 640 (YOLOv8 default),
         weight_file: (str) Path to trained weights file.,
