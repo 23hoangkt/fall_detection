@@ -126,8 +126,3 @@ Hệ thống hỗ trợ ba tùy chọn chạy với các tập lệnh riêng bi�
 - Để đóng góp, vui lòng fork dự án, thực hiện thay đổi và gửi pull request.
 - Báo cáo lỗi hoặc đề xuất tính năng mới qua tab Issues trên GitHub.
 
-## Giấy Phép
-Dự án này được cấp phép theo [MIT License](LICENSE).
-
-## Liên Hệ
-Nếu có thắc mắc, liên hệ qua [email@example.com](mailto:email@example.com) hoặc mở issue trên GitHub.
