@@ -72,15 +72,6 @@ Do dự án không sử dụng tệp cấu hình, các tham số như URL RTSP, 
 - **SMS Gateway API** (cho Option 3): Cập nhật URL điểm cuối (ví dụ: `http://<android-ip>:8080/send_sms`), khóa API, và số liên hệ khẩn cấp trong `FallDetectWithSMS.py`.
 - **Ngưỡng Phát Hiện Ngã**: Độ tin cậy keypoint và ngưỡng góc được hard-code trong mã nguồn. Điều chỉnh các giá trị này trong tập lệnh nếu cần.
 
-Ví dụ cấu hình trong `FallDetectWithSMS.py`:
-```python
-RTSP_URL = "rtsp://<camera-ip>:554/stream"
-SMS_GATEWAY_URL = "http://<android-ip>:8080/send_sms"
-SMS_API_KEY = "<your-api-key>"
-EMERGENCY_CONTACTS = ["+84xxxxxxxxx", "+84xxxxxxxxx"]
-FALL_CONFIDENCE_THRESHOLD = 0.7
-FALL_ANGLE_THRESHOLD = 45.0
-```
 
 ## Sử Dụng
 Hệ thống hỗ trợ ba tùy chọn chạy với các tập lệnh riêng biệt:
