@@ -34,7 +34,7 @@ def main(cam_source):
 
 
 if __name__ == "__main__":
-    cam_source = "rtsp://admin:Hkt2301aa@@192.168.110.36:554/onvif1"
+    cam_source = "rtsp://admin:usename@ip address"
     main(cam_source)
 
 

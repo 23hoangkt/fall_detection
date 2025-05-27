@@ -18,7 +18,7 @@ https://drive.google.com/drive/u/0/folders/1lrTI56k9QiIfMJhG9kzNjBzJh98KCIIO
 kết nối với camera và lấy địa chỉ IP của camera
 ```python rtsp.py```
 
-# Chạy mô hình kết hợp với SMS
+# Chạy mô hình kết hợp với SMS, Call
 đăng ký tài khoản Twilo, nhập thông tin
 ```python fall_detection.py```
 

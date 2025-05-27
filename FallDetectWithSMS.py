@@ -153,7 +153,7 @@ def main_detection(frame_queue):
                 break
 
 if __name__ == '__main__':
-    cam_source = "rtsp://admin:Hkt2301aa@@192.168.1.7:554/onvif1"
+    cam_source = "rtsp://admin:usename@ip address"
     t1 = threading.Thread(target=rtsp_reader, args=(cam_source, frame_queue))
     t2 = threading.Thread(target=main_detection, args=(frame_queue,))
     t1.start()
