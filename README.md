@@ -22,8 +22,8 @@ kết nối với camera và lấy địa chỉ IP của camera
 đăng ký tài khoản Twilo, nhập thông tin
 ```python fall_detection.py```
 
-# Sự kết hợp giữa 3 models Yolo-Tiny V3, PSSE, STGCN
-bạn có thể train lại mô hình yolov3-tiny và lấy 1 file weight mới 
+# Sự kết hợp giữa 3 models Yolov8, PSSE, STGCN
+bạn có thể train lại mô hình yolov8 và lấy 1 file weight mới 
 <p align="center">
   <b>Fall Detection</b><br>
   <img src="Screenshot 2024-09-20 002229.png" alt="Mô tả hình ảnh 1" width="600"/>
